@@ -10089,6 +10089,7 @@ function randomCharacters(length) {
             'gzip, deflate',
             '*',
         ]
+        language_header = ['en-US,en;q=0.9,vi;q=0.8']
     var proxies = readLines(args.proxy);
     const parsedTarget = url.parse(args.target);
 
